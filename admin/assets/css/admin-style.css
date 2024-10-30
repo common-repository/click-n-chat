@@ -1,0 +1,1306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet');
+body
+{
+	font-family:"Poppins",sans-serif;
+	color:#49687E;
+	background:#f1f1f1;
+}
+
+/* Nav Bar */
+.nav-tab-wrapper {
+    border-bottom: 1px solid #F0F0F0; !important
+}
+.nav-tab-wrapper, .wrap h2.nav-tab-wrapper, h1.nav-tab-wrapper
+{
+	border-bottom:none;
+}
+.nav-tab {
+    display: inline-block;
+    align-items: center;
+    background-color: rgba(102, 153, 255, 1);
+    border-radius: 0.3rem;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1), 0 10px 15px -3px rgba(102, 153, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+    font-size: .9rem;
+    line-height: 1.8rem;
+    overflow: hidden;
+    padding: 0.6rem 0.8rem;
+    transition-duration: 0.2s;
+    
+}
+.nav
+{
+	border:0px;
+}
+.nav-item-setting
+{
+	width:30%;
+	color:#49687E;
+}
+.nav-link-setting
+{
+	border:0px  !important;
+	color:#49687E !important;
+	width:100%;
+	padding:20px;
+}
+.nav-link-setting button.hover
+{
+	background:#C1C1C1;
+}
+.nav-item-setting button.active {
+  background-color: transparent;
+  box-shadow:  10px 10px 15px -3px rgba(102, 153, 255, 0.3);
+ 	
+}
+.nav-item-setting button.active::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+ 
+}
+
+/* Pop Header */
+.cnc-chatbot-popup-header {  
+    background: linear-gradient(90deg, rgba(84, 207, 96, 1) 0%, rgba(68, 197, 84, 1) 35%, rgba(45, 184, 66, 1) 100%);  
+    color: #fff;   
+    padding: 15px;  
+    text-align: center;  
+    border-radius: 10px 10px 0 0;  
+    margin-bottom: 10px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);  
+}  
+
+.cnc-chatbot-popup-header h1 {  
+    font-size: 14px;  
+    margin: 0;  
+    font-family: 'Arial', sans-serif;  
+    font-weight: bold; 
+	padding: 15px; 
+} 
+
+.cnc-border-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.cnc-border-view {
+	display: inline-block;
+    width: 50px;
+	height: 30px;
+    border: 2px solid #CCC;
+    transition: border-color 0.3s ease;
+}
+.cnc-header > a > span > b
+{
+	color:#49687E;
+	padding-right:1rem;
+}
+.cnc-border{
+	--cnc-border-padding: 1.5rem;
+	margin-right: 0;
+	margin-left: 0;
+	border-width: 1px;
+	border-top-left-radius: var(--bs-border-radius);
+	border-top-right-radius: var(--bs-border-radius);
+}
+
+.cnc-social-type-txt
+{
+	line-height: 50px;
+}
+
+
+/* Form View*/
+.form-label
+{
+	font-weight:500; !important
+}
+
+.wp-core-ui select,input[type=file],input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week]
+{
+	display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	 
+}
+
+.form-rangs
+{
+	width: 50%;
+}
+ 
+.nav-tab-active, .nav-tab-active:focus, .nav-tab-active:focus:active, .nav-tab-active:hover
+{
+	background: #FFFFFF;
+    color: #49687E;
+	border: 1px solid #E6DEF3
+}
+.tab-content {
+    border: 1px solid #E6DEF3;
+    padding: 1rem;
+	margin-right:.7rem;
+	background:#ffffff;	
+    border-radius: 10px; !important
+}
+form-label
+{
+	font-weight:900;
+}
+
+/* Form styling */
+.form-table th {
+    width: 200px;
+}
+
+.form-table td {
+    width: auto;
+}
+
+.large-text {
+    width: 100%;
+    max-width: 100%;
+}
+#sortable-user-list > thead > tr > th
+{
+	text-align:center;
+}
+
+#sortable-user-list > tbody > tr
+{
+ 
+}
+
+/* Table CSS */
+.table-container {  
+	overflow-x: auto;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+	background-color: #fff;
+	margin-top:10px;
+} 
+
+.table-container > .table {
+	border-collapse: collapse;
+}
+.table-container > .table > thead > tr > th
+{
+	text-align:center;
+	font-size:.9rem !important;
+    background-color: rgb(102 153 255 / 0.5);
+	padding:.9rem;
+}
+.table-container > .table > tbody > tr > td
+{
+	font-size:.8rem !important;
+}
+
+.table-container > .table-lt-header-border
+{
+	border-top-left-radius:1rem;
+}
+.table-container > .table-rt-header-border
+{
+	border-top-right-radius:1rem;
+}
+
+th,td
+{color:#49687E !important;}
+
+
+@media screen and (max-width: 600px) {	
+
+  table {width:100%;}
+
+  thead {display: none;}
+
+  tr:nth-of-type(2n) {background-color: inherit;}
+
+  tr td:first-child {font-weight:bold;font-size:1.3em;}
+
+  tbody td {display: block;  text-align:center;}
+
+  tbody td:before {
+
+      content: attr(data-th);
+
+      display: block;
+
+      text-align:center; 
+
+  }
+  .form-rangs
+	{
+		width: 100%;
+	}
+	 
+
+}
+
+.cnc-group-view
+{
+	width:auto;
+	overflow:hidden;
+}
+@media screen and (max-width: 768px) {
+  	.cnc-group-view
+	{
+		width:60%;
+		overflow-x:scroll;
+		overflow-y:hidden;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+  	.cnc-group-view
+	{
+		width:70%;
+		overflow-x:scroll;
+		overflow-y:hidden;
+	}
+}
+@media screen and (max-width: 600px) {	
+  	.cnc-group-view
+	{
+		width:auto;
+		overflow:hidden;
+	}
+}
+
+.cnc-radio-group {
+    display: flex;
+    gap: 20px; 
+	flex-wrap: wrap;
+}
+
+.cnc-radio-group label {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.cnc-radio-group input[type="radio"] {
+    display: none; 
+}
+
+.cnc-checkmark {
+    display: none;  
+    position: absolute;
+    top: 0px;  
+    right: 0px;
+    color: white;
+    background-color: #6699ff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+/* Option Group */
+.cnc-radio-group input[type="radio"]:checked + .cnc-checkpoint + .cnc-checkmark {
+    display: block; 
+}
+
+.cnc-color-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 320px;  
+	max-height: 50px;
+	overflow-y:scroll;
+}
+
+.cnc-color-options-label {
+    cursor: pointer;
+    position: relative;
+    flex: .5 .5 3%;  
+    display: flex;
+    justify-content: center;
+}
+
+.cnc-color-box {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    transition: border-color 0.3s ease;
+}
+
+#cnc-chatbot-popup {
+    bottom: 90px;
+    right: 40px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 40px 40px 5px 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+	height:200px;
+}
+
+
+ 
+/* Width Border */
+.no-border {
+    
+}
+
+.border-left-top {
+    
+	border-radius: 12px 0px 0px 0px;
+}
+
+.border-left-bottom {
+    
+	border-radius: 0px 0px 0px 12px;
+}
+
+.border-right-top {
+    
+	border-radius: 0px 12px 0px 0px;
+}
+
+.border-right-bottom {
+    
+	border-radius: 0px 0px 12px 0px;
+}
+
+.border-left-right-top {
+    border-radius: 12px 12px 0px 0px;
+}
+
+.border-all {
+    border-radius: 12px 12px 12px 12px;
+}
+
+.cnc-link-option img
+{
+	border: 2px solid transparent;
+	border-radius: 5px;
+	width: 50px; /* Set image width */
+	height: 50px; /* Set image height */
+	transition: border-color 0.3s ease;
+}
+
+.cnc-link-option label
+{
+	gap: 1rem;
+	text-align:center;
+}
+
+.cnc-checkpoint svg:hover, .cnc-checkpoint img:hover
+{
+	transform: scale(1.05);  
+}
+
+.hoverDisabled:hover
+{
+    transform: none !important;  
+}
+
+/*cnc-switch*/
+.cnc-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+/* Hide the default checkbox */
+.cnc-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.cns-switch-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 17px;
+}
+
+/* The circle inside the slider */
+.cns-switch-slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+/* Toggle switch on (when checked) */
+input:checked + .cns-switch-slider {
+    background-color: #6699ff;
+}
+
+/* Move the circle to the right when the toggle is on */
+input:checked + .cns-switch-slider:before {
+    transform: translateX(26px);
+}
+
+/* Rounded slider (optional) */
+.cns-switch-slider.round {
+    border-radius: 34px;
+}
+
+.cns-switch-slider.round:before {
+    border-radius: 50%;
+}
+
+/*Button*/
+.cnc-button {
+    display: inline-block; 
+    padding: 10px 20px; !important
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #1e90ff, #00bfff);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 15px rgba(30, 144, 255, 0.4);
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer; !important	
+}
+
+.cnc-button:hover {
+    background: linear-gradient(90deg, #00bfff, #1e90ff);
+    box-shadow: 0 6px 20px rgba(30, 144, 255, 0.6);
+}
+
+.cnc-button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px rgba(30, 144, 255, 0.3);
+}
+.cnc-danger-button {
+    display: inline-block; 
+    padding: 10px 20px; !important
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #ff6666, #ff4d4d);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 15px rgba(30, 144, 255, 0.4);
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.cnc-danger-button:hover {
+    background: linear-gradient(90deg, #ff6666, #ff4d4d);
+    box-shadow: 0 6px 20px rgba(255, 77, 77, 0.6);
+}
+
+.cnc-danger-button:active,.cnc-danger-button:focus {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px rgba(255, 77, 77, 0.3);
+}
+
+.btn-outline-primary {
+	--bs-btn-color: #6699ff;
+	--bs-btn-border-color: #6699ff;
+}
+.btn-outline-primary:hover {
+	--bs-btn-hover-color: white;
+	--bs-btn-hover-bg: #6699ff;
+	--bs-btn-hover-border-color: #6699ff;
+}
+.removebutton:hover {
+	--bs-btn-hover-color: white;
+	--bs-btn-hover-bg:#E33D30;
+	--bs-btn-hover-border-color: #E33D30;
+}
+.fas
+{
+	color:#FFF;
+}
+.right
+{
+	float:right;	
+}
+
+
+
+/* Leads Table */
+
+#leadsTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#leadsTable th, #leadsTable td {
+    padding: 10px;
+    text-align: left;
+}
+
+#leadsTable th a {
+    text-decoration: none;
+    color: #333;
+}
+
+#pagination {
+	padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+	float: right;
+}
+
+#pagination .page-link {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #0073aa;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s, border-color 0.3s;
+    cursor: pointer;
+}
+
+#pagination .page-link:hover {
+    background-color: #0073aa;
+    color: #fff;
+    border-color: #0073aa;
+}
+
+#pagination .current-page {
+    padding: 8px 12px;
+    border: 1px solid #0073aa;
+    border-radius: 4px;
+    background-color: #0073aa;
+    color: #fff;
+    cursor: default;
+}
+
+/* social icons Width */
+
+.cnc-social-icons
+{
+	width:50%;
+}
+.cnc-f-11
+{
+	font-size:.6rem;
+}
+
+/* Phone iti Width */
+.intl-tel-input
+{
+    width: 100%;
+}
+.iti {
+    width: 100%;
+}
+
+#noAvailabilityOption
+{
+	position: relative;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+}
+
+#justIconsSize
+{
+	width:290px;
+	position: relative;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Pro Label */
+.cnc-pro-label {
+	position: relative;
+    display: inline-block;
+}
+.cnc-pro-label::before {
+    content: "PRO";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(90deg, #54cf60 0, #44c554 35%, #2db842 100%);
+    color: #fff;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 3px;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.cnc-pro-label:hover::before {
+    opacity: 1;
+}
+
+/* SVG Auto width in Table */
+.ui-sortable-handle svg
+{
+	width:auto !important;
+}
+
+/* Widget 1 */
+#wgs1-cnc-widget {
+    height: 200px;
+    overflow-y: auto;
+	margin: 20px;
+}
+
+#wgs1-cnc-widget div {
+    margin-bottom: 5px;
+}
+
+#wgs1-cnc-widget-widget{
+	width:350px;
+	margin:0px;
+	display:flex;
+	flex-direction: column;  
+}
+#wgs1-cnc-widget-widget .wgs1-cnc-widget-container{
+	width:300px;
+	border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 3px;
+}
+
+.wgs1-cnc-widget-link {
+    text-decoration:none;
+}
+
+.wgs1-cnc-widget-link:hover {
+    text-decoration:none;
+}
+
+#wgs1-cnc-widget .wgs1-cnc-widget-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 3px auto;
+	
+}
+
+.wgs1-cnc-widget-container:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.wgs1-cnc-widget-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+.wgs1-cnc-widget-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.wgs1-cnc-widget-icon-div {
+    position: relative; /* Ensures the online indicator is positioned relative to the icon */
+}
+
+.wgs1-cnc-widget-icon-div::after {
+    content: '';
+    position: absolute;
+    top: 5px; 
+    right: 10px;  
+    width: .5rem;
+    height: .5rem;
+    background-color: #25D366; 
+    border: 2px solid #ffffff;  
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); 
+}
+
+.wgs1-cnc-widget-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+	margin-left: 15px;
+}
+
+.wgs1-cnc-widget-details {
+    flex: 1;
+	height:60px;
+}
+
+ 
+.wgs1-cnc-widget-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+ 
+.wgs1-cnc-widget-designation {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0 0;
+	color: #25D366;
+}
+
+.wgs1-cnc-widget-description {
+    font-size: 11px;
+    color: #666;
+    margin: 5px 0 0 5px;
+}
+
+/* Widget 2 */
+#wgs2-cnc-widget div {  
+    margin-bottom: 8px;  
+}  
+
+#wgs2-cnc-widget-widget {  
+    width: 300px;  
+    margin: 0;  
+    display: flex;  
+    flex-direction: column;  
+}  
+
+#wgs2-cnc-widget-widget .wgs2-cnc-widget-container {  
+    border: 1px solid #ddd;  
+    border-radius: 10px;  
+    background-color: #ffffff;  
+    max-width: 600px;  
+    margin: 5px auto;  
+    transition: box-shadow 0.3s ease-in-out;  
+    overflow: hidden;  
+}   
+
+.wgs2-cnc-widget-link {  
+    text-decoration: none;  
+}  
+
+.wgs2-cnc-widget-link:hover {  
+    text-decoration: none;  
+}  
+
+#wgs2-cnc-widget .wgs2-cnc-widget-container:hover {  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);  
+}  
+
+.wgs2-cnc-widget-icon-div {
+    position: relative; /* Ensures the online indicator is positioned relative to the icon */
+}
+
+.wgs2-cnc-widget-icon-div::after {
+    content: '';
+    position: absolute;
+    top: 5px; 
+    right: 10px;  
+    width: .5rem;
+    height: .5rem;
+    background-color: #25D366; 
+    border: 2px solid #ffffff;  
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); 
+}
+
+.wgs2-cnc-widget-icon {  
+    width: 50px;  
+    height: 50px;  
+    object-fit: cover;  
+    border-radius: 50%;  
+    margin: 0 15px;  
+    border: 2px solid #ddd;  
+    transition: transform 0.3s ease;  
+}  
+
+.wgs2-cnc-widget-item {  
+    display: flex;  
+    align-items: center;  
+    padding: 10px;  
+    border: 1px solid #eeeeee;  
+}  
+
+.wgs2-cnc-widget-item:hover .wgs2-cnc-widget-icon {  
+    transform: scale(1.09);  
+}  
+
+.wgs2-cnc-widget-details {  
+    flex: 1; 
+	height:60px;
+}  
+
+.wgs2-cnc-widget-name {  
+    font-size: 18px;  
+    font-weight: bold;  
+    margin: 0;  
+    color: #333;  
+}  
+
+.wgs2-cnc-widget-designation {  
+    font-size: 14px;  
+    color: #25D366;  
+    margin: 5px 0 0;  
+}  
+
+.wgs2-cnc-widget-description {  
+    font-size: 11px;  
+    color: #666;  
+    margin: 5px 0 0;  
+}
+ 
+/* Widget 3 */
+.wgs3-cnc-widget-container {  
+    margin-bottom: 5px;  
+}  
+
+#wgs3-cnc-widget-widget {  
+    margin: 0;  
+    display: flex;  
+    flex-direction: column;  
+}  
+
+ 
+.wgs3-cnc-widget-link {  
+    text-decoration: none;  
+}  
+
+.wgs3-cnc-widget-link:hover {  
+    text-decoration: none;  
+}  
+
+#wgs3-cnc-widget .wgs3-cnc-widget-container:hover {  
+     
+}  
+
+.wgs3-cnc-widget-icon-div {
+    position: relative; 
+}
+
+.wgs3-cnc-widget-icon-div::after {
+    content: '';
+    position: absolute;
+    top: 5px; 
+    right: 10px;  
+    width: .5rem;
+    height: .5rem;
+    background-color: #25D366; 
+    border: 2px solid #ffffff;  
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); 
+}
+
+.wgs3-cnc-widget-icon {  
+    width: 50px;  
+    height: 50px;  
+    object-fit: cover;  
+    border-radius: 10%;  
+    margin: 0 15px;  
+    border: 2px solid #ddd;  
+    transition: transform 0.3s ease;  
+	border: 3px solid #ffffff;
+}  
+
+.wgs3-cnc-widget-item {  
+    display: flex;  
+    align-items: center;  
+    padding: 10px;  
+    border: 1px solid #eeeeee;  
+	background:#49687E;
+}  
+
+.wgs3-cnc-widget-item:hover .wgs3-cnc-widget-icon {  
+    transform: scale(1.09);  
+}  
+
+.wgs3-cnc-widget-details {  
+    flex: 1; 
+	height:60px;
+	color:#ffffff;
+}  
+
+.wgs3-cnc-widget-name {  
+    font-size: 1rem;  
+    font-weight: bold;  
+    margin: 0;
+    color: #ffffff;  
+}  
+
+.wgs3-cnc-widget-designation {  
+    font-size: .8rem;  
+    color: #ffffff;  
+    margin: 5px 0 0;  
+}  
+
+.wgs3-cnc-widget-description {  
+    font-size: 0.7rem;  
+    color: #ffffff;  
+    margin: 5px 0 0;  
+}
+
+ 
+/* Widget 4 */
+#wgs4-cnc-widget {
+    height: 200px;
+    overflow-y: auto;
+	margin: 20px;
+	padding: 5px; 
+    margin: 0;  
+    display: flex;  
+    flex-direction: column;
+}	
+#wgs4-cnc-widget  > .wgs4-cnc-widget-link {
+    margin-bottom: 5px;
+}
+.wgs4-cnc-widget-link {
+    text-decoration:none;
+}
+
+.wgs4-cnc-widget-link:hover {
+    text-decoration:none;
+}
+
+#wgs4-cnc-widget .wgs4-cnc-widget-container {
+	background-color: #1BBC9B;
+    max-width: 600px;
+    margin: 3px auto;
+    border-radius: 50px;
+    margin: 0px;
+	
+}
+.wgs4-cnc-widget-container:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.wgs4-cnc-widget-icon {
+	max-width: none !important;
+ 	width: 60px;
+	height: 60px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-right: 8px;
+	border: 3px solid #ffffff;
+	margin-left: -10px;
+	vertical-align: bottom;
+}
+
+ 
+
+
+.wgs4-cnc-widget-item {
+	display: flex;
+    align-items: center;
+    padding: 8px;
+    color: #FFFFFF;
+}
+
+.wgs4-cnc-widget-icon-div {
+    position: relative; 
+}
+
+.wgs4-cnc-widget-icon-div::after {
+    content: '';
+    position: absolute;
+    top: 5px; 
+    right: 10px;  
+    width: .5rem;
+    height: .5rem;
+    background-color: #25D366; 
+    border: 2px solid #ffffff;  
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); 
+}
+
+ 
+
+.wgs4-cnc-widget-details {
+    flex: 1;
+	height:60px;
+	color:#FFFFFF;
+}
+
+ 
+.wgs4-cnc-widget-name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+ 
+.wgs4-cnc-widget-designation {
+    font-size: .8rem;
+    color: #666;
+    margin: 5px 0 0;
+	color: #FFFFFF;
+}
+
+.wgs4-cnc-widget-description {
+    font-size: 0.7rem;  
+    color: #666;
+    margin: 5px 0 0 5px;
+	color: #FFFFFF;
+}
+ 
+ 
+/* Widget 5 */
+  
+
+#wgs5-cnc-widget-widget {   
+    margin: 0;  
+    display: flex;  
+    flex-direction: column;  
+	max-height:200px;
+	
+}  
+.wgs5-cnc-widget-container {
+    padding:10px;
+    margin: 10px auto;
+	border-radius: 10px;  
+    max-width: 600px;  
+    overflow: hidden; 
+}
+ 
+.wgs5-cnc-widget-container:hover {
+    box-shadow: 0 0 10px rgba(66, 113, 219, 0.1);
+}
+.wgs5-cnc-widget-link {  
+    text-decoration: none;  
+}  
+
+.wgs5-cnc-widget-link:hover {  
+    text-decoration: none;  
+}  
+
+ 
+
+.wgs5-cnc-widget-icon-div {
+    position: relative; 
+}
+
+.wgs5-cnc-widget-icon-div::after {
+    content: '';
+    position: absolute;
+    top: 1px; 
+    right: 9px; 
+    width: .5rem;
+    height: .5rem;
+    background-color: #25D366; 
+    border: 2px solid #ffffff; 
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); 
+}
+
+.wgs5-cnc-widget-icon {  
+	max-width: none !important;
+	position: absolute;
+    top: -50px;
+    width: 80px;  
+    height: 80px;  
+    object-fit: cover;  
+    border-radius: 50%;  
+    margin: 0 15px;  
+    border: 2px solid #FFFFFF;  
+    transition: transform 0.3s ease;  
+}  
+
+.wgs5-cnc-widget-item {  
+    display: flex;  
+    align-items: center;  
+ 	border-radius:10px;
+	background-color: #4271DB;
+ 
+}  
+
+.wgs5-cnc-widget-item:hover .wgs5-cnc-widget-icon {  
+      
+}  
+
+.wgs5-cnc-widget-details {  
+    flex: 1; 
+	height:80px;
+	margin-left:110px;
+}  
+
+.wgs5-cnc-widget-name {  
+    font-size: 1rem;  
+    font-weight: bold;  
+    margin: 0;  
+    color: #FFFFFF;  
+}  
+
+.wgs5-cnc-widget-designation {  
+    font-size: .8rem;  
+    color: #FFFFFF;  
+    margin: 5px 0 0;  
+}  
+
+.wgs5-cnc-widget-description {  
+    font-size: 0.7rem;  
+    color: #FFFFFF;  
+    margin: 5px 0 0;  
+}
+
+ 
+/* Widget 6 */
+#wgs6-cnc-widget {
+    height: 200px;
+    overflow-y: auto;
+	margin: 10px;
+}
+
+.wgs6-cnc-widget-container {
+    margin-bottom: 8px;
+}
+
+#wgs6-cnc-widget-widget{
+	margin:0px;
+	display:flex;
+}
+ 
+
+.wgs6-cnc-widget-link {
+    text-decoration:none;
+}
+
+.wgs6-cnc-widget-link:hover {
+    text-decoration:none;
+}
+
+#wgs6-cnc-widget .wgs6-cnc-widget-container {
+    border-radius: 8px;
+    background-color: #25D366;
+    max-width: 600px;
+    margin: 8px auto;
+	
+}
+
+.wgs6-cnc-widget-container:hover {
+	box-shadow: 0 0 10px rgba(66, 113, 219, 0.2);
+}
+
+.wgs6-cnc-widget-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 20%;
+    margin-right: 15px;
+}
+
+
+.wgs6-cnc-widget-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.wgs6-cnc-widget-icon-div {
+    position: relative; 
+}
+
+.wgs6-cnc-widget-icon-div::after {
+    content: '';
+    position: absolute;
+    top: 5px; 
+    right: 10px; 
+    width: .5rem;
+    height: .5rem;
+    background-color: #25D366; 
+    border: 2px solid #ffffff; 
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); 
+}
+
+.wgs6-cnc-widget-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.wgs6-cnc-widget-details {
+    flex: 1;
+	height:60px;
+}
+
+ 
+.wgs6-cnc-widget-name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+ 
+.wgs6-cnc-widget-designation {
+    font-size: .8rem;
+    color: #666;
+    margin: 5px 0 0;
+	color: #25D366;
+}
+
+.wgs6-cnc-widget-description {
+    font-size: 11px;
+    color: #FFFFFF;
+    margin: 5px 0 0 5px;
+}
+ 
+
+ 
+.wgs6-cnc-widget-icon {
+    border: 3px solid #FFFFFF;
+}
+
+.wgs6-cnc-widget-name {
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.wgs6-cnc-widget-designation {
+    font-size: .8rem;
+    color: #FFFFFF;
+}
+
+.wgs6-cnc-widget-description {
+    font-size: .7rem;
+    color: #FFFFFF;
+}
